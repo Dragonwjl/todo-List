@@ -41,4 +41,5 @@ const render = (dom, callback) => {
 }
 
 
+//一个模块中只能使用一次 ---  export default
 export default render;

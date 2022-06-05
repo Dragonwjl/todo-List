@@ -202,6 +202,7 @@ render(document.getElementById('root'), () => {
         btn("add", addFlag)
         document.querySelector(".search").setAttribute('class', "button search")
         document.querySelector(".add").setAttribute('class', "button add selected")
+        load(flag)
     })
     //搜索按钮 search
     document.querySelector(".search").addEventListener("click", function (e) {
