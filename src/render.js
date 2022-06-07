@@ -3,7 +3,7 @@ import './index.css'
 const render = (dom, callback) => {
 
     window.onload = () => {
-        dom.innerHTML = `
+        dom[0].innerHTML = `
 <div>
 <div>
     <div class="container">
