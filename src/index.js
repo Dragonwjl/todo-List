@@ -1,5 +1,5 @@
 import render from './render'
-
+import $ from 'jquery'
 // 读取本地存储的数据
 function getData() {
     let localData = localStorage.getItem("todolist");
